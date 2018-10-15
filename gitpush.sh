@@ -109,6 +109,10 @@ do
      echo "PWD  -- your location "
      pwd
 
+     echo " "
+     npm run build
+     echo " "
+
   elif [[ $REPLY =~ ^[Ee]$ ]]; then
 
      echo " "
